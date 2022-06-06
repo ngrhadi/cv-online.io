@@ -32,7 +32,7 @@ const defaultData = {
 		name: "ngrhadi",
 		email: "adinugraha.ista@yahoo.com",
 		github: "https://github.com/ngrhadi",
-		phone: "0812-1234-1234",
+		phone: "+62878-8628-4789",
 		address: "Indramayu, Jawa Barat, Indonesia",
 		avatar: "./assets/img/avatar.jpg",
 	},
