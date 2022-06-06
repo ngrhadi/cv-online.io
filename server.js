@@ -1,3 +1,9 @@
+if (process.env.NODE_ENV === "production") {
+	module.exports = require("./prod");
+} else {
+	module.exports = require("./dev");
+}
+
 const express = require("express");
 // const mongoose = require("mongoose");
 const jsonServer = require("json-server");
@@ -94,4 +100,4 @@ app.get("/", (req, res) => {
 	res.render("articles/index", { article: articles });
 });
 
-app.listen(5005);
+app.listen(process.env.PORT || 5005);
